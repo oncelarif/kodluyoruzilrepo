@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <div class="container .ml-1">
+    <div class="giris_yazi">
+        <h1>Hesap Oluştur</h1>
+        <p>Zaten bir hesabın var mı?</p><a href="#">Giriş Yap</a>
+    </div>
+     
+    <form method="post" action="kontrol.php">
+        <br><input type="text" name="adsoyad" placeholder="Ad Soyad Girin" required><br>
+        <br><input type="email" name="email" placeholder="E-Mail Adresi Girin" required><br>
+        <br><input type="password" name="sifre" placeholder="Şifrenizi Girin" required><br>
+
+     <div class="checkbox" id="kontrol">
+        <input type="checkbox">
+        <label for="kontrol" ><a href="#">Şartlar ve Koşullar</a>ı okudum, kabul ediyorum.</label>
+
+     </div>
+     <button type="submit" class="btn btn-primary" >Kayıt Ol</button>
+    </form>
+
+    </div>
+</body>
+</html>

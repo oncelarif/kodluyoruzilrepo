@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #9370DB;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(rgb(39, 37, 167),gray);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow:hidden;
+    justify-content: space-evenly;
+    font-family: 'Poppins',sans-serif;
+    padding: 2% 15px;
+}
+
+.giris_yazi a{
+    color: black;
+}
+.form{
+    height: 300px;
+    display: flex;
+    
+}
+.checkbox a{
+    color: rgb(0, 24, 243);
+}
